@@ -23,7 +23,7 @@ export const Card = () => {
   }
 
   return (
-    <div className="bg-white w-[50%] rounded-lg p-4">
+    <div className="bg-white lg:w-[50%] w-full mx-4 rounded-lg p-4">
       <div className="flex justify-between gap-4">
         <label htmlFor="height">Height</label>
         <input
